@@ -1,0 +1,7 @@
+- id: latexindent
+  name: latexindent
+  description: index latex file using latexindent.pl script.
+  language: system
+  files: \.(tex|sty|cls|bib)$
+  entry: latexindent
+  args: [-w, -s, -y="defaultIndent:'    '"]
